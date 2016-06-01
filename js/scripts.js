@@ -5,12 +5,14 @@ $(document).ready(function() {
     var beverageTypeInput = $("#beverage-type").val();
     var favoriteArtistInput = $("#favorite-artist").val();
     var dobInput = $("#born").val();
+    var colorInput = $("#color").val();
 
     $(".name").text(nameInput);
     $(".food-type").text(foodTypeInput);
     $(".beverage-type").text(beverageTypeInput);
     $(".favorite-artist").text(favoriteArtistInput);
     $(".dob").text(dobInput);
+    $(".color").text(colorInput);
 
     $("#paragraph").show();
 
