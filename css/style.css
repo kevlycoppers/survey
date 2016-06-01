@@ -1,0 +1,12 @@
+h3, label {
+  font-size: 19px;
+  color: #0088cc;
+}
+
+.container {
+  width: 50%;
+}
+
+#paragraph {
+  display: none;
+}
